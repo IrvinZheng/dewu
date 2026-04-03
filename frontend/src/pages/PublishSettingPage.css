@@ -1,0 +1,58 @@
+.publish-setting-page {
+  padding: 24px;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.setting-card {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mode-radio-group {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.mode-card {
+  flex: 1;
+  cursor: pointer;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.mode-card:hover {
+  border-color: #1890ff;
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.15);
+}
+
+.mode-card-active {
+  border-color: #1890ff;
+  background: #f0f5ff;
+}
+
+.mode-content {
+  padding: 8px;
+}
+
+.mode-icon {
+  font-size: 32px;
+  color: #1890ff;
+  margin-bottom: 12px;
+}
+
+.mode-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.mode-content p {
+  margin: 0 0 16px 0;
+  color: #666;
+  font-size: 14px;
+}

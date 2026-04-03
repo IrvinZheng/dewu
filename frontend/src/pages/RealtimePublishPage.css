@@ -1,0 +1,56 @@
+.realtime-publish-page {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.publish-card {
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.publish-card .ant-card-head {
+  padding: 8px 14px;
+}
+
+.publish-card .ant-card-body {
+  padding: 10px 14px;
+}
+
+.upload-section {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.preview-section {
+  margin-top: 8px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.steps-section {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 6px;
+}
+
+.progress-section {
+  margin-top: 8px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.action-section {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid #f0f0f0;
+}
